@@ -1,0 +1,249 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".LokasiBankSampah"
+    android:orientation="vertical"
+    android:layout_margin="10dp">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+            <LinearLayout
+                android:id="@+id/card"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:background="#00BFFF"
+                android:padding="5dp"
+                android:layout_marginBottom="20dp">
+
+                <ImageView
+                    android:id="@+id/gambar"
+                    android:layout_width="match_parent"
+                    android:layout_height="220dp"
+                    android:src="@drawable/banksampah1" />
+
+                <TextView
+                    android:id="@+id/nama_bank_sampah_1"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Bank Sampah Dahlia"
+                    android:textColor="@color/white"
+                    android:textSize="25dp"
+                    android:textAlignment="center"
+                    android:textStyle="bold" />
+                <TextView
+                    android:id="@+id/alamat_bank_samapah_1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textColor="#6D6060"
+                    android:text="Jl. Kalimo Sodo No. 13, Tamanan, Kec. Bangutapan, Kabupaten Bantul, Daerah Istimewa Yogyakarta"/>
+                <TextView
+                    android:layout_marginTop="5dp"
+                    android:layout_marginBottom="5dp"
+                    android:textColor="@color/white"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Fasilitas"
+                    android:textStyle="bold"/>
+
+
+                <LinearLayout
+                    android:id="@+id/fasilitas"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:divider="@drawable/jarak_antar_fasilitas"
+                    android:orientation="horizontal"
+                    android:showDividers="middle"
+                    >
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:background="@drawable/rounded_corner"
+                        android:textColor="@color/black"
+                        android:padding="5dp"
+                        android:text="Free Pick Up"
+                        />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textColor="@color/black"
+                        android:layout_alignParentEnd="true"
+                        android:background="@drawable/rounded_corner"
+                        android:padding="5dp"
+                        android:text="100% Terpercaya" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentEnd="true"
+                        android:textColor="@color/black"
+                        android:layout_gravity="left"
+                        android:background="@drawable/rounded_corner"
+                        android:padding="5dp"
+                        android:text="Proses Cepat" />
+
+
+                </LinearLayout>
+
+
+
+                <LinearLayout
+                    android:id="@+id/button"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:orientation="horizontal"
+                    android:divider="@drawable/jarak_antar_fasilitas"
+                    android:showDividers="middle"
+                    android:layout_gravity="center"
+                    android:layout_marginTop="20dp"
+                    >
+                    <Button
+                        android:id="@+id/bukaWa"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:backgroundTint="#27FF22"
+                        android:textColor="#5B6870"
+                        android:padding="5dp"
+                        android:text="Hubungi Whatsapp"/>
+                    <Button
+                        android:id="@+id/showmap"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:backgroundTint="@color/white"
+                        android:textColor="@color/primary_color"
+                        android:padding="5dp"
+                        android:text="Tampilkan Peta"/>
+                </LinearLayout>
+
+
+
+
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/card2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:background="#00BFFF"
+                android:padding="5dp">
+
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="220dp"
+                    android:src="@drawable/banksampah2" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Bank Sampah Pandes Asri"
+                    android:textColor="@color/white"
+                    android:textSize="25dp"
+                    android:textAlignment="center"
+                    android:textStyle="bold" />
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textColor="#6D6060"
+                    android:text="Jl. Patih Singoranu No.99, Kragilan, Tamanan, Kec. Banguntapan, Kabupaten Bantul, Daerah Istimewa Yogyakarta"/>
+                <TextView
+                    android:layout_marginTop="5dp"
+                    android:layout_marginBottom="5dp"
+                    android:textColor="@color/white"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Fasilitas"
+                    android:textStyle="bold"/>
+
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:divider="@drawable/jarak_antar_fasilitas"
+                    android:orientation="horizontal"
+                    android:showDividers="middle"
+                    >
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:background="@drawable/rounded_corner"
+                        android:textColor="@color/black"
+                        android:padding="5dp"
+                        android:text="Free Pick Up"
+                        />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textColor="@color/black"
+                        android:layout_alignParentEnd="true"
+                        android:background="@drawable/rounded_corner"
+                        android:padding="5dp"
+                        android:text="100% Terpercaya" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentEnd="true"
+                        android:textColor="@color/black"
+                        android:layout_gravity="left"
+                        android:background="@drawable/rounded_corner"
+                        android:padding="5dp"
+                        android:text="Proses Cepat" />
+
+
+                </LinearLayout>
+
+
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:orientation="horizontal"
+                    android:divider="@drawable/jarak_antar_fasilitas"
+                    android:showDividers="middle"
+                    android:layout_gravity="center"
+                    android:layout_marginTop="20dp"
+                    >
+                    <Button
+                        android:id="@+id/bukaWa2"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:backgroundTint="#27FF22"
+                        android:textColor="#5B6870"
+                        android:padding="5dp"
+                        android:text="Hubungi Whatsapp"/>
+                    <Button
+                        android:id="@+id/showmap2"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:backgroundTint="@color/white"
+                        android:textColor="@color/primary_color"
+                        android:padding="5dp"
+                        android:text="Tampilkan Peta"/>
+                </LinearLayout>
+
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+    </ScrollView>
+
+
+
+
+</LinearLayout>

@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "1018297379447",
+    "project_id": "aplikasi-bank-sampah-eae61",
+    "storage_bucket": "aplikasi-bank-sampah-eae61.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1018297379447:android:1c4471c397ff473033b472",
+        "android_client_info": {
+          "package_name": "com.example.aplikasibanksampah"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1018297379447-d69j5nefi4s5mkrg7j982ug2upfutl3t.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDPqpyL0uDEFvrwgPOpLtmmWIz_e7FXW9M"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1018297379447-d69j5nefi4s5mkrg7j982ug2upfutl3t.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

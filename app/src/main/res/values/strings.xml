@@ -1,0 +1,23 @@
+<resources>
+    <string name="app_name">Aplikasi Bank Sampah</string>
+
+    <string-array name="cabang_bank_sampah">
+        <item>Bank Dahlia</item>
+        <item>Bank Sampah Pandes Asri</item>
+    </string-array>
+
+    <string-array name="kategori_sampah">
+        <item>Sampah Organik</item>
+        <item>Sampah Non-Organik</item>
+        <item>Sampah B3</item>
+    </string-array>
+
+    <string-array name="status_reservasi">
+        <item>Belum Diproses</item>
+        <item>Diproses</item>
+        <item>Selesai</item>
+    </string-array>
+
+
+    <string name="title_activity_maps_lokasi_bank_sampah">MapsLokasiBankSampah</string>
+</resources>
